@@ -1,0 +1,12 @@
+import cmath
+a=complex(input("enter the complex number for first :"))
+b=complex(input("enter the complex number for second:"))
+c= complex(a+b)
+c4= c.conjugate()
+print(c)
+print("the real part of the number :")
+print(c.real)
+print("the imaginary part of the number:")
+print(c.imag)
+print("the conjugate number is:")
+print(c4)
